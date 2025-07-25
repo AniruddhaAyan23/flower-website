@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f8ff;
+  color: #333;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  background: #f5f8ff;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #e85d04;
+  font-family: cursive;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* spacing between icon and text */
+  color: black;
+  text-decoration: none;
+}
+
+.cart-image {
+  width: 18px;  /* adjust as needed */
+  height: 18px;
+  vertical-align: middle;
+}
+
+
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 800;
+  color: #000;
+}
+
+.highlight {
+  color: #f37023;
+  font-weight: 700;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.subheading {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.subheading h2 {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.subheading .highlight {
+  color: #f37023;
+}
+
+.subheading p {
+  max-width: 700px;
+  margin: 20px auto 0;
+  color: #666;
+  font-size: 1rem;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 50px; /* space between items */
+  padding: 0px;
+  justify-items: center; /* center images in grid cells */
+}
+
+.product-grid img {
+    margin-top: 50px;
+
+    width: 200px;  /* fixed size */
+    height: 250px;
+  
+}
+.btn-primary{
+  margin-top: 30px;
+  background-color: rgba(233, 90, 8, 1);
+  color: aliceblue;
+  padding: 10px 70px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: none;
+  
+}
+
+.side-by-side-container {
+  display: flex;
+  align-items: right;        /* vertically align image and text */
+  justify-content: space-between;
+  gap: 40px;                  /* space between image and text */
+  padding: 80px 60px;
+  flex-wrap: wrap;            /* makes it responsive on smaller screens */
+}
+
+.flo-worker {
+  flex: 1;
+  max-width: 50%;
+}
+
+.flo-worker img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.flower-plant-lover {
+  font-size: 30px;
+  
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.badge-symbol img {
+  width: 200px;
+  display: wrap;
+  margin: 150px 650px -150px 600px; /* Push it down + center it */
+}
+
+.highlight-2 {
+  color: #f37023;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+.three-pic{
+    grid: flex;
+    flex: grid;
+
+
+}
+.sponsor-company{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+  
+}
+
+
